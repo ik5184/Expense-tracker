@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="box">
+      <section class="box_upper">
+        <h1>Expense Tracker</h1>
+        <div class="balance">
+          <h2>Rs. 0</h2>
+          <h3>Your Balance</h3>
+        </div>
+      </section>
+    <div class="transaction">
+      <h3>Transactions</h3>
+      <hr>
+      <div class="tran">
+        <div class="first">
+          <p>example</p>
+          <div class="first-left">
+            <p>+ RS. 200</p>
+            <div class="status">Credit</div>
+          </div>
+        </div>
+        <div class="second">
+          <p>example</p>
+          <div class="second-left">
+            <p>- RS. 200</p>
+            <div class="status" style="background-color: red;">Debit</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="transaction-form">
+      <h2 class="add">Add Transation</h1>
+        <form action="">
+          <!-- <h2>Text</h2> -->
+          <div class="form-control">
+            <div class="inputtext">
+
+              <label for="mn">Text</label>
+              <input id="mn" class="text" type="text" placeholder="Enter.....">
+              
+            </div>
+           <div class="inputtext">
+            <label for="nm">Amount</label>
+             <input  id="nm"  class="text" placeholder="Enter your amount...">
+           </div>
+          </div>
+          <div class="btn">
+
+            <button type="submit" class="earning">
+              <p>Rs. 0</p>
+              <p>Earning</p>
+            </button>
+            <button type="submit" class="Expenses">
+              <p>Rs. 0</p>
+              <p>Expense</p>
+            </button>
+          </div>
+        </form>
+    </section>
+    </div>
+  </div>
+</body>
+<script src="java.js"></script>
+</html>
 
