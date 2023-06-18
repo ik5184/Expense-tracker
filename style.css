@@ -1,1 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --primary:black;
+  --primary-dark:brown;
+  --green: green;
+  --red:red;
 
+}
+body{
+  background-color: var(--primary);
+}
+.container{
+  display: flex;
+  /* margin-top: 70px; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  
+  background-color: white;
+  color: white;
+  width: 450px;
+  height: 800px;
+  padding: 20px;
+  position: relative;
+  background-color: var(--primary-dark);
+}
+h1{
+  font-weight: 500;
+  font-size: 32px;
+}
+h2{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+h3{
+  font-weight: 500;
+  font-size: 25px;
+}
+.box_upper,.balance{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid green; */
+  }
+  .balance{
+    margin-top: 30px;
+  }
+  .transaction{
+    margin-top: 20px;
+  }
+  .first{
+    display: flex;
+    /* border: 2px solid green; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--green);
+    /* padding: 10px; */
+  }
+  .first-left{
+    display: flex;
+    align-items: center;
+  }
+  .status{
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  .second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: var(--green);
+    /* padding: 10px; */
+  }
+  p{
+    margin-left: 5px;
+  }
+  .second-left{
+    display: flex;
+    align-items: center;
+  }
+  .status{
+    margin-left: 10px;
+    background-color: black;
+    padding: 10px;
+  }
+  .transaction-form{
+    background-color: white;
+    /* border: 2px solid red; */
+    position: absolute;
+    bottom:0px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+  }
+  .add{
+    margin: 10px;
+    color: black;
+    
+    text-align: center;
+  }
+  .form-control{
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+  }
+
+  .inputtext{
+     padding: 10px; 
+     margin: 10px;
+    width: 100%;
+    color: black;
+  }
+  .text{
+    padding: 10px;
+  }
+  .btn{
+    display: flex;
+  }
+  .earning,.Expenses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid green; */
+    padding: 20px;
+    background-color: green;
+    width: 50%;
+    margin-left: 10px; */
+  }
